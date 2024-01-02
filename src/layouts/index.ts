@@ -1,0 +1,1 @@
+export { CenteredLayout } from './CenteredLayout'

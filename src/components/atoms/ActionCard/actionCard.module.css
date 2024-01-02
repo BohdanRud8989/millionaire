@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.description {
+  color: var(--black-100);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+}
+
+.actionText {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: -1;
+  width: auto;
+  height: auto;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .main {
+    align-items: center;
+    gap: 104px;
+  }
+
+  .description {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+

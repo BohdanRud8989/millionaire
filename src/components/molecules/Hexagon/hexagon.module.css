@@ -1,0 +1,37 @@
+.inactive {
+  cursor: pointer;
+}
+.inactive path {
+  fill: var(--white-100);
+  stroke: var(--black-40);
+}
+.inactive:hover path {
+  fill: var(--white-100);
+  stroke: var(--orange-100);
+}
+
+.selected path {
+  fill: var(--orange-5);
+  stroke: var(--orange-100);
+}
+.correct path {
+  fill: var(--green-5);
+  stroke: var(--green-100);
+}
+.wrong path {
+  fill: var(--red-5);
+  stroke: var(--red-100);
+}
+
+.text {
+  fill: var(--black-100);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 116%;
+}
+.prefix {
+  fill: var(--orange-100);
+  font-weight: 600;
+  margin-right: 8px;
+}
+

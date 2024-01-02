@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "text": "How old your elder brother was 10 years before you was born, mate?",
+      "answers": [
+        {
+          "code": "A",
+          "value": "10 years"
+        },
+        {
+          "code": "B",
+          "value": "11 years"
+        },
+        {
+          "code": "C",
+          "value": "12 years"
+        },
+        {
+          "code": "D",
+          "value": "14 years"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "text": "What is your fav football club in EPL this season?",
+      "answers": [
+        {
+          "code": "A",
+          "value": "FC Chelsea"
+        },
+        {
+          "code": "B",
+          "value": "Arsenal FC"
+        },
+        {
+          "code": "C",
+          "value": "Man City"
+        },
+        {
+          "code": "D",
+          "value": "Man United"
+        }
+      ],
+      "correct": "D"
+    }
+  ],
+  "prices": ["$500", "$1000", "$2000",  "$4000", "$8000", "$16000"]
+}

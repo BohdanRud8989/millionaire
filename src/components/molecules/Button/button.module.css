@@ -1,0 +1,31 @@
+.main {
+  width: 296px;
+  height: 64px;
+  border: unset;
+  border-radius: 12px;
+  background: var(--orange-100);
+  color: var(--white-100);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+  cursor: pointer;
+}
+.main:hover {
+  background: var(--orange-80);
+}
+.main:active {
+  background: var(--orange-120);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .main {
+    width: 288px;
+    height: 48px;
+  }
+}
+
+

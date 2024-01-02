@@ -1,8 +1,8 @@
 import {useEffect, useState} from "react";
 import {setTimeout} from "timers";
 import { Hexagon } from '@components'
-import {ANSWER_HANDLING_DELAY, QuestionType} from "@types";
-// import { promises as fs } from 'fs';
+import {QuestionType} from "@types";
+import {ANSWER_HANDLING_DELAY} from '../../../utils';
 
 import styles from './questionCard.module.css';
 
@@ -69,16 +69,3 @@ export const QuestionCard = ({ question, onCorrectAnswer, onWrongAnswer }: Actio
     </section>
   );
 };
-
-export async function getStaticProps() {
-    /*const filePath = path.join(process.cwd(), 'data.json');
-    const jsonData = await fsPromises.readFile(filePath);
-    const objectData = JSON.parse(jsonData);*/
-    // const file = await fs.readFile(process.cwd() + 'data.json', 'utf8');
-    // const data = JSON.parse(file);
-    console.log('getStaticProps: objectData: ', {})
-
-    return {
-        props: {}
-    }
-}

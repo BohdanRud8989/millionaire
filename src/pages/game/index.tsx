@@ -1,11 +1,10 @@
 import {useRouter} from "next/router";
 import { useCallback, useState } from "react";
 import Image from "next/image";
-import { Hexagon, QuestionCard, QuestionsProgressCard } from '@components'
-import {QUESTIONS} from "@types";
+import { QuestionCard, QuestionsProgressCard } from '@components'
 import {useBreakpoints} from "@hooks";
 import {CenteredLayout} from "@layouts";
-
+import {QUESTIONS} from '../../utils';
 
 import styles from './game.module.css'
 

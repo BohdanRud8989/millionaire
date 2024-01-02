@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import {useCallback, useEffect, useState} from "react";
 import { CenteredLayout } from "@layouts";
 import { MainContainer } from "@components";
-import { QUESTIONS_PRICE_LIST } from "@types"
+import { QUESTIONS_PRICE_LIST } from '../../utils';
 
 import styles from './game-over.module.css';
 

@@ -1,5 +1,5 @@
 import { Hexagon } from '@components'
-import {QUESTIONS_PRICE_LIST} from "@types";
+import {QUESTIONS_PRICE_LIST} from '../../../utils';
 
 import styles from './questionsProgressCard.module.css';
 

@@ -1,6 +1,6 @@
 import {useMediaQuery} from "./useMediaQuery";
-import {Breakpoints, MEDIA_QUERY_BREAKPOINTS} from "@types";
-
+import {Breakpoints} from "@types";
+import {MEDIA_QUERY_BREAKPOINTS} from '../utils';
 
 
 export function useBreakpoints() {

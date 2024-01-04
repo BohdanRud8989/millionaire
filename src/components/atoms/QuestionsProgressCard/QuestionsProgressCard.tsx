@@ -15,7 +15,8 @@ export const QuestionsProgressCard = ({ currentQuestion }: QuestionsProgressCard
         { QUESTIONS_PRICE_LIST.map((price,idx) =>
                 <Hexagon
                     key={price}
-                    variant={currentQuestion === idx ? 'selected' : undefined}
+                    variant={currentQuestion === idx ? 'selected' : 'unset'}
+                    type="flattened"
                     text={price}
                     centered />
                     ).reverse()}

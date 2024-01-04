@@ -4,7 +4,7 @@ import Image from "next/image";
 import { QuestionCard, QuestionsProgressCard } from '@components'
 import {useBreakpoints} from "@hooks";
 import {CenteredLayout} from "@layouts";
-import {QUESTIONS} from '../../utils';
+import {QUESTIONS, QUESTIONS_PRICE_LIST} from '../../utils';
 
 import styles from './game.module.css'
 
@@ -35,7 +35,12 @@ export default function Game() {
 
     if (QUESTIONS.length === 0) {
         return <CenteredLayout className={styles.emptyState}>
-            No questions are provided!
+            No questions were provided!
+        </CenteredLayout>
+    }
+    if (QUESTIONS.length !== QUESTIONS_PRICE_LIST.length) {
+        return <CenteredLayout className={styles.emptyState}>
+            Questions and questions price list length doesn&apos;t match!
         </CenteredLayout>
     }
 

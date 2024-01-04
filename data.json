@@ -1,49 +1,125 @@
 {
-  "questions": [
-    {
-      "text": "How old your elder brother was 10 years before you was born, mate?",
-      "answers": [
-        {
-          "code": "A",
-          "value": "10 years"
-        },
-        {
-          "code": "B",
-          "value": "11 years"
-        },
-        {
-          "code": "C",
-          "value": "12 years"
-        },
-        {
-          "code": "D",
-          "value": "14 years"
-        }
-      ],
-      "correct": "A"
-    },
-    {
-      "text": "What is your fav football club in EPL this season?",
-      "answers": [
-        {
-          "code": "A",
-          "value": "FC Chelsea"
-        },
-        {
-          "code": "B",
-          "value": "Arsenal FC"
-        },
-        {
-          "code": "C",
-          "value": "Man City"
-        },
-        {
-          "code": "D",
-          "value": "Man United"
-        }
-      ],
-      "correct": "D"
-    }
-  ],
-  "prices": ["500", "1000", "2000",  "4000", "8000", "16000"]
+    "questions": [
+      {
+        "text": "What is the capital city of France?",
+        "answers": [
+          {"code": "A", "value": "Berlin"},
+          {"code": "B", "value": "London"},
+          {"code": "C", "value": "Madrid"},
+          {"code": "D", "value": "Paris"}
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "In which year did World War I begin?",
+        "answers": [
+          {"code": "A", "value": "1914"},
+          {"code": "B", "value": "1923"},
+          {"code": "C", "value": "1939"},
+          {"code": "D", "value": "1945"}
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Who wrote 'Romeo and Juliet'?",
+        "answers": [
+          {"code": "A", "value": "Charles Dickens"},
+          {"code": "B", "value": "William Shakespeare"},
+          {"code": "C", "value": "Jane Austen"},
+          {"code": "D", "value": "Homer"}
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which planet is known as the Red Planet?",
+        "answers": [
+          {"code": "A", "value": "Mars"},
+          {"code": "B", "value": "Venus"},
+          {"code": "C", "value": "Jupiter"},
+          {"code": "D", "value": "Mercury"}
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "What is the largest mammal on Earth?",
+        "answers": [
+          {"code": "A", "value": "Elephant"},
+          {"code": "B", "value": "Blue Whale"},
+          {"code": "C", "value": "Giraffe"},
+          {"code": "D", "value": "Hippopotamus"}
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Who painted the Mona Lisa?",
+        "answers": [
+          {"code": "A", "value": "Vincent van Gogh"},
+          {"code": "B", "value": "Leonardo da Vinci"},
+          {"code": "C", "value": "Pablo Picasso"},
+          {"code": "D", "value": "Claude Monet"}
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "What is the capital of Japan?",
+        "answers": [
+          {"code": "A", "value": "Beijing"},
+          {"code": "B", "value": "Seoul"},
+          {"code": "C", "value": "Tokyo"},
+          {"code": "D", "value": "Bangkok"}
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which element has the chemical symbol 'O'?",
+        "answers": [
+          {"code": "A", "value": "Oxygen"},
+          {"code": "B", "value": "Gold"},
+          {"code": "C", "value": "Silver"},
+          {"code": "D", "value": "Iron"}
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "In what year did the Titanic sink?",
+        "answers": [
+          {"code": "A", "value": "1912"},
+          {"code": "B", "value": "1920"},
+          {"code": "C", "value": "1931"},
+          {"code": "D", "value": "1942"}
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Who wrote 'To Kill a Mockingbird'?",
+        "answers": [
+          {"code": "A", "value": "Ernest Hemingway"},
+          {"code": "B", "value": "Harper Lee"},
+          {"code": "C", "value": "J.K. Rowling"},
+          {"code": "D", "value": "George Orwell"}
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "What is the smallest prime number?",
+        "answers": [
+          {"code": "A", "value": "0"},
+          {"code": "B", "value": "1"},
+          {"code": "C", "value": "2"},
+          {"code": "D", "value": "3"}
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Who was the first President of the United States?",
+        "answers": [
+          {"code": "A", "value": "John Adams"},
+          {"code": "B", "value": "Thomas Jefferson"},
+          {"code": "C", "value": "George Washington"},
+          {"code": "D", "value": "Abraham Lincoln"}
+        ],
+        "correct": "C"
+      }
+    ],
+  "prices": [500, 1000, 2000,  4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000]
 }

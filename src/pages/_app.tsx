@@ -3,6 +3,8 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { Inter } from 'next/font/google';
+// eslint-disable-next-line  @typescript-eslint/no-unused-vars
+import SpeedInsights from '@vercel/speed-insights';
 
 import '../globals.css';
 

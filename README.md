@@ -22,5 +22,5 @@ You can start editing any component. The page auto-updates as you edit files.
 
 ## Visit Vercel deployments
 On every push to main branch next deployments are being updated with new build:
-1.  [http://millionaire-pi.vercel.app](http://millionaire-pi.vercel.app)
-2.  [http://millionaire-git-main-bohdanrud8989.vercel.app](http://millionaire-git-main-bohdanrud8989.vercel.app)
+1. [http://millionaire-pi.vercel.app](http://millionaire-pi.vercel.app) - prod build
+2. [http://millionaire-git-main-bohdanrud8989.vercel.app](http://millionaire-git-main-bohdanrud8989.vercel.app) - latest branch build

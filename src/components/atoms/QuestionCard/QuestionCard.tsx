@@ -19,6 +19,7 @@ export default function QuestionCard({
 }: ActionCardProps) {
   const [currentAnswer, setCurrentAnswer] = useState<undefined | string>();
   const [isCorrect, setIsCorrect] = useState<undefined | boolean>();
+  const [isHandlingAnswer, setIsHandlingAnswer] = useState<boolean>(false);
   const { text, answers, correct: correctCode } = question;
 
   useEffect(() => {
@@ -27,18 +28,22 @@ export default function QuestionCard({
   }, [question]);
 
   const handleOnAnswer = (code: string) => {
-    setCurrentAnswer(code);
-    setTimeout(() => {
-      const isCurrentAnswerCorrect = code === correctCode;
-      setIsCorrect(isCurrentAnswerCorrect);
+    if (!isHandlingAnswer) {
+      setCurrentAnswer(code);
+      setIsHandlingAnswer(true);
       setTimeout(() => {
-        if (isCurrentAnswerCorrect) {
-          onCorrectAnswer?.();
-        } else {
-          onWrongAnswer?.();
-        }
+        const isCurrentAnswerCorrect = code === correctCode;
+        setIsCorrect(isCurrentAnswerCorrect);
+        setTimeout(() => {
+          setIsHandlingAnswer(false);
+          if (isCurrentAnswerCorrect) {
+            onCorrectAnswer?.();
+          } else {
+            onWrongAnswer?.();
+          }
+        }, ANSWER_HANDLING_DELAY);
       }, ANSWER_HANDLING_DELAY);
-    }, ANSWER_HANDLING_DELAY);
+    }
   };
 
   const getVariant = (code: string) => {

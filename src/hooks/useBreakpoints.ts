@@ -1,7 +1,6 @@
-import {useMediaQuery} from "./useMediaQuery";
-import {Breakpoints} from "@types";
-import {MEDIA_QUERY_BREAKPOINTS} from '../utils';
-
+import { Breakpoints } from '@types';
+import { useMediaQuery } from './useMediaQuery';
+import { MEDIA_QUERY_BREAKPOINTS } from '../utils';
 
 export function useBreakpoints() {
   const breakpoints = {
@@ -9,7 +8,7 @@ export function useBreakpoints() {
     isSm: useMediaQuery(MEDIA_QUERY_BREAKPOINTS.sm),
     isMd: useMediaQuery(MEDIA_QUERY_BREAKPOINTS.md),
     isLg: useMediaQuery(MEDIA_QUERY_BREAKPOINTS.lg),
-    active: Breakpoints.XS as Breakpoints
+    active: Breakpoints.XS as Breakpoints,
   };
   if (breakpoints.isXs) breakpoints.active = Breakpoints.XS;
   if (breakpoints.isSm) breakpoints.active = Breakpoints.SM;

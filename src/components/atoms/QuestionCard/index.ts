@@ -1,1 +1,1 @@
-export { QuestionCard } from './QuestionCard';
+export { default as QuestionCard } from './QuestionCard';

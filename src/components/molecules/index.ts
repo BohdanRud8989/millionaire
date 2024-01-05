@@ -1,2 +1,2 @@
-export * from './Hexagon'
-export * from './Button'
+export * from './Hexagon';
+export * from './Button';

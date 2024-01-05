@@ -1,1 +1,1 @@
-export { Hexagon } from './Hexagon';
+export { default as Hexagon } from './Hexagon';
